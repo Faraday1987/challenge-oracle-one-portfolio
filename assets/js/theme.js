@@ -6,7 +6,7 @@ let isLigth = false;
 toggle = () => {
     isLigth = !isLigth;
     if (isLigth) {
-        darkLigth.style.backgroundImage = "url('/assets/svg/btn_dark.svg')";
+        darkLigth.style.backgroundImage = "url('assets/svg/btn_dark.svg')";
         darkLigth.style.backgroundColor = 'var(--color-de-fondo-blanco)';
 
         document.documentElement.style.setProperty('--color-selection', 'rgb(70, 0, 102)');
@@ -29,7 +29,7 @@ toggle = () => {
         document.documentElement.style.setProperty('--color-de-fondo-lista-language', '#FFFFFF');
 
         const hobbieImages = [
-            "/assets/images/permacultura_1.png",
+            "assets/images/permacultura_1.png",
             "assets/images/acuacultura_1.png",
             "assets/images/jardineria_1.png",
             "assets/images/viajar_1.png",
@@ -52,7 +52,7 @@ toggle = () => {
 
 
     } else {
-        darkLigth.style.backgroundImage = "url('/assets/svg/btn_light.svg')";
+        darkLigth.style.backgroundImage = "url('assets/svg/btn_light.svg')";
         darkLigth.style.backgroundColor = 'var(--color-de-fondo-dark)';
 
         document.documentElement.style.setProperty('`--color-selection`', '#00f9ac');
@@ -75,7 +75,7 @@ toggle = () => {
         document.documentElement.style.setProperty('--color-de-fondo-lista-language', '#00C8CE');
 
         const hobbieImages = [
-            "/assets/images/permacultura_2.png",
+            "assets/images/permacultura_2.png",
             "assets/images/acuacultura_2.png",
             "assets/images/jardineria_2.png",
             "assets/images/viajar_2.png",
