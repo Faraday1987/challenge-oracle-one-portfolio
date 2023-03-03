@@ -6,7 +6,7 @@ let isLigth = false;
 toggle = () => {
     isLigth = !isLigth;
     if (isLigth) {
-        darkLigth.style.backgroundImage = "url('assets/svg/btn_dark.svg')";
+        darkLigth.style.backgroundImage = "url(assets/svg/btn_dark.svg)";
         darkLigth.style.backgroundColor = 'var(--color-de-fondo-blanco)';
 
         document.documentElement.style.setProperty('--color-selection', 'rgb(70, 0, 102)');
@@ -52,8 +52,8 @@ toggle = () => {
 
 
     } else {
-        darkLigth.style.backgroundImage = "url('assets/svg/btn_light.svg')";
-        darkLigth.style.backgroundColor = 'var(--color-de-fondo-dark)';
+        darkLigth.style.backgroundImage = "url(assets/svg/btn_light.svg)";
+        darkLigth.style.backgroundColor = "var(--color-de-fondo-dark)";
 
         document.documentElement.style.setProperty('`--color-selection`', '#00f9ac');
         document.documentElement.style.setProperty('--color-de-fondo', '#040404');
