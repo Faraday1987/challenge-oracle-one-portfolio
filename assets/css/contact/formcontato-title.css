@@ -1,0 +1,9 @@
+.formcontato__title {
+    display: flex;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 3.8rem;
+    text-align: left;
+    padding-bottom: 0.8rem;
+}
+

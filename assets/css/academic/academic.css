@@ -1,0 +1,9 @@
+section.academic {
+    background-color: var(--color-de-fondo-even);
+    color: var(--color-de-fuente);
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8.2em;
+}

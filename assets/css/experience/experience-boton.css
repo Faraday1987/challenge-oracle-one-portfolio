@@ -1,0 +1,43 @@
+
+.experience__boton--repo {
+    background-color: var(--color-de-fondo-text-input);
+    color: var(--color-de-boton);
+    border: 1px solid var(--color-de-boton);
+    padding: 1.6rem;
+    width: 11.6rem;
+    height: 5.1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    transition: all .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.experience__boton--demo {
+    appearance: none;
+    border: none;
+    background-color: var(--color-de-boton);
+    color: var(--color-de-texto-blanco);
+    padding: 1.6rem;
+    width: 11.6rem;
+    height: 5.1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+}
+
+
+.experience__boton--repo:hover {
+    cursor: pointer;
+    background-color: var(--color-de-boton);
+    color: var(--color-de-fuente);
+}
+
+.experience__boton--demo:hover { 
+    cursor: pointer;
+    background-color: var(--color-de-fondo-text-input);
+    color: var(--color-de-boton);
+    border: 1px solid var(--color-de-boton);
+}
+

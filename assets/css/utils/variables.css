@@ -1,0 +1,23 @@
+:root{
+    /* COLORES LIGHT DEFAULT */
+    --color-selection: rgb(70, 0, 102);
+    --color-de-fondo: #F5F5F5;
+    --color-de-fondo-dark: #000000;
+    --color-de-fondo-even: #EAF2FD;
+    --color-de-link: #000000;
+    --color-de-fuente: #464646;
+    --color-de-fondo-blanco: #FFFFFF;
+    --color-de-boton: #2A7AE4;
+    --color-de-borde-formulario-input-empty: #C8C8C8;
+    --color-de-borde-formulario-input-active: #2A7AE4;
+    --color-de-formulario-label-input-inactive: #A2A2A2;
+    --color-de-formulario-label-input-active: #2A7AE4;
+    --color-de-fondo-text-input: #FFFFFF;
+    --color-de-fuente-skills-name: #464646;
+    --color-de-fuente-hobbies-name: #464646;
+    --text-gradient-from: #00f9ac;
+    --text-gradient-to: #0081f9;
+    --color-de-fondo-lista-language: #FFFFFF;
+    --color-de-formulario-error: #ff0019;
+    --color-de-formulario-valido: #0081f9;
+}

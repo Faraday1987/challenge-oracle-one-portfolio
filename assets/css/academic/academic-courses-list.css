@@ -1,0 +1,4 @@
+.academic__courses__list {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,37 @@
+section.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Tamaños mayores a 0 */
+@media screen and (min-width:0px) {
+    section.menu {
+        padding-right: 1.6rem;
+        padding-left: 1.6rem;
+    }
+}
+
+/* Tamaños mayores a 768px */
+@media screen and (min-width:768px) {
+    section.menu {
+        padding-right: 3.2rem;
+        padding-left: 3.2rem;
+    }
+}
+
+/* Tamaños menores a 1080 */
+@media screen and (min-width:1080px) {
+    section.menu {
+        padding-right: 3.2rem;
+        padding-left: 3.2rem;
+    }
+}
+
+/* Todos los tamaños mayores que 1440 el original*/
+@media screen and (min-width:1440px) {
+    section.menu {
+        padding-right: 15.2rem;
+        padding-left: 15.2rem;    
+    }
+}
+

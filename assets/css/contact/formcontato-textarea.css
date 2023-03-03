@@ -1,0 +1,26 @@
+.formcontato__textarea {
+    position: relative;
+    height: 13.3rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: var( --color-de-fuente);
+    background-color: var(--color-de-fondo-text-input);
+    outline: none;
+    border: none;
+    padding: 2.4rem 1.2rem;
+    resize: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.formcontato__textarea:focus {
+    border-bottom: 0.2rem solid var(--color-de-borde-formulario-input-active);
+}
+
+.formcontato__textarea:focus ~ .formcontato__label,
+.formcontato__textarea:not(:placeholder-shown) ~ .formcontato__label {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    top: 0.8rem;
+    color: var(--color-de-borde-formulario-input-active);
+}

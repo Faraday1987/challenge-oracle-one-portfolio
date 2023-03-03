@@ -1,0 +1,33 @@
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.2rem;
+    flex: 0 1 auto;
+    gap: 3.2rem;
+}
+
+
+@media screen and (min-width:0){
+    .formcontato__form {
+        min-width: 296px;
+        width: auto;
+        gap: 3.2rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .formcontato__form {
+        width: auto;
+        height: 573px;
+        gap: 3.2rem;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .formcontato__form {
+        gap: 3.2rem;
+        width: auto;
+        height: 596px;
+    }
+}
+

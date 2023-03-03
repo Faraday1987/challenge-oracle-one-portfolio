@@ -1,0 +1,28 @@
+.formcontato__input {
+    border-bottom: 0.1rem solid var(--color-de-borde-formulario-input-empty);
+    color: var(--color-de-fuente);
+    background-color: var(--color-de-fondo-text-input);
+    position: relative;
+    border: none;
+    font-size: 1.6rem;
+    outline: none;
+    position: relative;
+    line-height: 2rem;
+    font-weight: 400;
+    height: 5.6rem;
+    padding-left: 1.2rem;
+    padding-bottom: 1rem;
+    padding-top: 2.8rem;
+}
+
+.formcontato__input:focus {
+    border-bottom: 0.2rem solid var(--color-de-borde-formulario-input-active);
+}
+
+.formcontato__input:focus~.formcontato__label,
+.formcontato__input:not(:placeholder-shown)~.formcontato__label {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    top: 0.8rem;
+    color: var(--color-de-borde-formulario-input-active);
+}

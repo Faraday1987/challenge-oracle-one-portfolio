@@ -1,0 +1,7 @@
+.experience {
+    background-color: var(--color-de-fondo);
+    color: var(--color-de-fuente);
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.2rem;
+}

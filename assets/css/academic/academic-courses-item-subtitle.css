@@ -1,0 +1,14 @@
+.academic__courses__item__subtitle {
+    font-size: 1.4em;
+    font-weight: 500;
+
+}
+
+@media screen and (min-width: 0){
+    .academic__courses__item__subtitle {
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1.644rem;
+        padding-top: .8rem;
+    }
+}

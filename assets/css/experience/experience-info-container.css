@@ -1,0 +1,40 @@
+.experience__info__container {
+    display: flex;
+    flex-flow: column;
+    flex: 0 0 38.4rem;
+    /* align-self: center; */
+    width: 38.4rem;
+}
+
+
+@media screen and (min-width: 0) {
+    .experience__info__container {
+        flex: 0 0 auto;
+        align-self: flex-start;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .experience__info__container {
+        flex-flow: column;
+        /* flex: 0 0 38.4rem; */
+        align-self: flex-start;
+        width: 38.4rem;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .experience__info__container {
+        flex: 1 1 auto;
+        align-self: flex-start;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .experience__info__container {
+        flex-flow: column;
+        /* flex: 1 1 38.4rem; */
+        align-self: center;
+        width: 38.4rem;
+    }
+}

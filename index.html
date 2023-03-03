@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonte del Proyecto Raleway -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap" rel="stylesheet">
+    <!--FAV ICONS-->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="assets/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--FAV ICONS END-->
+
+    <!-- Referencia de la hoja de estilo de Css Metodología BEM / Atomic Design-->
+    <link href="./assets/css/utils/normalize.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/utils/variables.css">
+    <link href="./assets/css/utils/reset.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/menu/menu.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-header.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-language.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-theme.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-tittle.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-logo.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-nav.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-list.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-list-item.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-link.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-llink-contacto.css">
+    <link rel="stylesheet" href="./assets/css/hero/hero.css">
+    <link rel="stylesheet" href="./assets/css/hero/hero-content.css">
+    <link rel="stylesheet" href="./assets/css/hero/hero-profile.css">
+    <link rel="stylesheet" href="./assets/css/hero/hero-container.css">
+    <link rel="stylesheet" href="./assets/css/hero/hero-bio.css">
+    <link rel="stylesheet" href="./assets/css/hero/hero-subsection.css">
+    <link rel="stylesheet" href="./assets/css/hero/hero-network.css">
+    <link rel="stylesheet" href="./assets/css/hero/hero-network-item.css">
+    <link rel="stylesheet" href="./assets/css/about/about.css">
+    <link rel="stylesheet" href="./assets/css/about/about-container.css">
+    <link rel="stylesheet" href="./assets/css/about/about-title.css">
+    <link rel="stylesheet" href="./assets/css/about/about-paragraph.css">
+    <link rel="stylesheet" href="./assets/css/about/about-paragraph.css">
+    <link rel="stylesheet" href="./assets/css/about/about-signature.css">
+    <link rel="stylesheet" href="./assets/css/skills/skills.css">
+    <link rel="stylesheet" href="./assets/css/skills/skills-tittle.css">
+    <link rel="stylesheet" href="./assets/css/skills/skills-line.css">
+    <link rel="stylesheet" href="./assets/css/skills/skills-box.css">
+    <link rel="stylesheet" href="./assets/css/skills/skills-img.css">
+    <link rel="stylesheet" href="./assets/css/skills/skills-name.css">
+    <link rel="stylesheet" href="./assets/css/hobbies/hobbies.css">
+    <link rel="stylesheet" href="./assets/css/hobbies/hobbies-tittle.css">
+    <link rel="stylesheet" href="./assets/css/hobbies/hobbies-line.css">
+    <link rel="stylesheet" href="./assets/css/hobbies/hobbies-box.css">
+    <link rel="stylesheet" href="./assets/css/hobbies/hobbies-img.css">
+    <link rel="stylesheet" href="./assets/css/hobbies/hobbies-name.css">
+    <link rel="stylesheet" href="./assets/css/academic/academic.css">
+    <link rel="stylesheet" href="./assets/css/academic/academic-title.css">
+    <link rel="stylesheet" href="./assets/css/academic/academic-courses.css">
+    <link rel="stylesheet" href="./assets/css/academic/academic-courses-box.css">
+    <link rel="stylesheet" href="./assets/css/academic/academic-courses-list.css">
+    <link rel="stylesheet" href="./assets/css/academic/academic-courses-item-img.css">
+    <link rel="stylesheet" href="./assets/css/academic/academic-courses-item-title.css">
+    <link rel="stylesheet" href="./assets/css/academic/academic-courses-item-subtitle.css">
+    <link rel="stylesheet" href="./assets/css/experience/experience.css">
+    <link rel="stylesheet" href="./assets/css/experience/experience-section-title.css">
+    <link rel="stylesheet" href="./assets/css/experience/experience-box.css">
+    <link rel="stylesheet" href="./assets/css/experience/experience-img.css">
+    <link rel="stylesheet" href="./assets/css/experience/experience-info-container.css">
+    <link rel="stylesheet" href="./assets/css/experience/experience-title.css">
+    <link rel="stylesheet" href="./assets/css/experience/experience-text.css">
+    <link rel="stylesheet" href="./assets/css/experience/experience-description.css">
+    <link rel="stylesheet" href="./assets/css/experience/experience-repo.css">
+    <link rel="stylesheet" href="./assets/css/experience/experience-demo.css">
+    <link rel="stylesheet" href="./assets/css/experience/experience-boton.css">
+    <link rel="stylesheet" href="./assets/css/contact/formcontato.css">
+    <link rel="stylesheet" href="./assets/css/contact/formcontato-contacto.css">
+    <link rel="stylesheet" href="./assets/css/contact/formcontato-img.css">
+    <link rel="stylesheet" href="./assets/css/contact/formcontato-text.css">
+    <link rel="stylesheet" href="./assets/css/contact/formcontato-title.css">
+    <link rel="stylesheet" href="./assets/css/contact/formcontato-subtext.css">
+    <link rel="stylesheet" href="./assets/css/contact/formcontato-form.css">
+    <link rel="stylesheet" href="./assets/css/contact/formcontato-container.css">
+    <link rel="stylesheet" href="./assets/css/contact/formcontato-input.css">
+    <link rel="stylesheet" href="./assets/css/contact/formcontato-label.css">
+    <link rel="stylesheet" href="./assets/css/contact/formcontato-textarea.css">
+    <link rel="stylesheet" href="./assets/css/contact/formcontato-message-error.css">
+    <link rel="stylesheet" href="./assets/css/contact/formcontato-boton.css">
+    <link rel="stylesheet" href="./assets/css/footer/footer.css">
+    <link rel="stylesheet" href="./assets/css/footer/footer-rodapie.css">
+
+    <link rel="stylesheet" href="./assets/css/ui/circle-button.css">
+
+    <title data-i18n="title"> Mi Portafolio</title>
+</head>
+
+<body>
+    <!-- Sección del Menú  -->
+    <div class="tudo">
+        <section class="menu">
+            <header class="menu__header">
+                <img class="menu__logo" src="assets/svg/faradaylogo.svg" alt="logo faraday software">
+                <h3 class="menu__title" data-i18n="title">Faraday Software</h3>
+                <select name="language" id="change-language" class="menu__language">
+                    <option value="0"><span>Es</span></option>
+                    <option value="1"><span>En</span></option>
+                    <option value="2"><span>Pt</span></option>
+                    <option value="3"><span>It</span></option>
+                </select>
+
+                <button class="menu__theme" data-theme-btn></button>
+            </header>
+            <nav class="menu_nav">
+                <ul class="menu__list">
+                    <li class="menu__list__item"><a class="menu__link" href="#sobre-mi" data-i18n="about">Sobre mi</a>
+                    </li>
+                    <li class="menu__list__item"><a class="menu__link" href="#skills" data-i18n="skills">Habilidades</a>
+                    </li>
+                    <li class="menu__list__item"><a class="menu__link" href="#hobbies" data-i18n="hobbies">Hobbies</a>
+                    </li>
+                    <li class="menu__list__item"><a class="menu__link" href="#formacion"
+                            data-i18n="formation">Formación</a></li>
+                    <li class="menu__list__item"><a class="menu__link" href="#xp" data-i18n="projects">Proyectos</a>
+                    </li>
+                    <li class="menu__list__item"><a class="menu__link__contacto"
+                            href="#contacto">faraday1987@gmail.com</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <!-- Sección del Header/Title/Hero -->
+        <section class="hero">
+            <div class="hero__content">
+                <img class="hero__profile" src="./assets/images/profile.jpg" alt="profile picture">
+                <div class="hero__container">
+                    <h2 class="hero__bio" data-i18n="herobio">Hola, mi nombre es Faraday y construyo paginas web</h2>
+                    <h3 class="hero__subsection" data-i18n="herosubsection">Soy formado en Ingenieria de software,
+                        actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</h3>
+                    <ul class="hero__network">
+                        <!-- Pon los enlaces de tus redes sociales favoritas -->
+                        <li class="hero__network__item"><a href="https://github.com/faraday1987" target="_blank">Github
+                                <img src="./assets/svg/arrow.svg" alt="arrow launch"> </a></li>
+                        <li class="hero__network__item"><a href="https://www.linkedin.com/in/faraday1987"
+                                target="_blank">Linkedin<img src="./assets/svg/arrow.svg" alt="arrow launch"></a></li>
+                        <li class="hero__network__item"><a href="https://www.instagram.com/faraday119"
+                                target="_blank">Instagram<img src="./assets/svg/arrow.svg" alt="arrow launch"></a></li>
+                        <li class="hero__network__item"><a href="https://www.youtube.com/@faraday1987"
+                                target="_blank">Youtube<img src="./assets/svg/arrow.svg" alt="arrow launch"></a></li>
+                        <li class="hero__network__item"><a href="#" target="_blank"><span
+                                    data-i18n="cv">Currículo</span><img src="./assets/svg/arrow.svg"
+                                    alt="arrow launch"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección sobre mi -->
+        <section class="about" id="sobre-mi">
+            <div class="about__container">
+                <h3 class="about__title" data-i18n="abouttitle">Sobre mi</h3>
+                <p class="about__paragraph" data-i18n="abouttitlep1">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque
+                    gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.</p>
+                <p class="about__paragraph" data-i18n="abouttitlep2">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque
+                    gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit
+                    amet felis venenatis, egestas metus vitae, aliquet metus.</p>
+                <!-- Si quieres, pon tú firma acá! -->
+                <img class="about__signature" src="assets/images/signature.png" alt="sign faraday">
+            </div>
+        </section>
+
+        <!-- Sección de Skills -->
+        <section class="skills" id="skills">
+            <h3 class="skills__title">Skills</h3>
+            <div class="skills__line">
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"><img src="assets/svg/html5_1.svg" alt="HTML5" data-skill-img="0"></li>
+                        <li class="skills__name">HTML 5</li>
+                    </ul>
+                </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="assets/svg/css_1.svg" alt="CSS" data-skill-img="1"> </li>
+                        <li class="skills__name">CSS</li>
+                    </ul>
+                </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="assets/svg/js_1.svg" alt="Javascript" data-skill-img="2">
+                        </li>
+                        <li class="skills__name">Javascript</li>
+                    </ul>
+                </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"><img src="assets/svg/golang_1.svg" alt="Golang" data-skill-img="3"></li>
+                        <li class="skills__name">Go</li>
+                    </ul>
+                </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="assets/svg/react_1.svg" alt="React" data-skill-img="4"> </li>
+                        <li class="skills__name">React</li>
+                    </ul>
+                </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="assets/svg/angular_1.svg" alt="Angular" data-skill-img="5">
+                        </li>
+                        <li class="skills__name">Angular</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Hobbies -->
+        <section class="hobbies" id="hobbies">
+            <h3 class="hobbies__title">Hobbies</h3>
+            <div class="hobbies__line">
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"><img src="assets/images/permacultura_1.png" alt="Hobbie permaculture"
+                                data-hobbie-img="0"></li>
+                        <li class="hobbies__name" data-i18n="hobbies1">Permacultura</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"> <img src="assets/images/acuacultura_1.png" alt="Hobbie acuaculture"
+                                data-hobbie-img="1"></li>
+                        <li class="hobbies__name" data-i18n="hobbies2">Acuacultura</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"> <img src="assets/images/jardineria_1.png" alt="Hobbie jardineria"
+                                data-hobbie-img="2"></li>
+                        <li class="hobbies__name" data-i18n="hobbies3">Jardinería</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"><img src="assets/images/viajar_1.png" alt="Hobbie viajar"
+                                data-hobbie-img="3"></li>
+                        <li class="hobbies__name" data-i18n="hobbies4">Viajar</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"> <img src="assets/images/elearning_1.png" alt="hobbie e-learning"
+                                data-hobbie-img="4"> </li>
+                        <li class="hobbies__name" data-i18n="hobbies5">E-Learning</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"> <img src="assets/images/videojuegos_1.png" alt="Hobbie Video Juegos"
+                                data-hobbie-img="5"> </li>
+                        <li class="hobbies__name" data-i18n="hobbies6">Video Juegos</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Formación académica -->
+        <section class="academic" id="formacion">
+            <h2 class="academic__title" data-i18n="academictitle">Formación académica</h2>
+            <div class="academic__courses">
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <li class="academic__courses__item__img"><img src="assets/images/ceneval_logo.png"></li>
+                        <li class="academic__courses__item__title">
+                            <h4 data-i18n="academicsubtitle1">Ingeniería de Software</h4>
+                        </li>
+                        <li class="academic__courses__item__subtitle"><a href="/assets/docs/isoft.pdf"
+                                data-i18n="academicsubtitlep1" target="_blank">2018 - Ceneval Acuerdo 286</a></li>
+                    </ul>
+                </div>
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <li class="academic__courses__item__img"><img src="assets/images/colbach.png"></li>
+                        <li class="academic__courses__item__title">
+                            <h4 data-i18n="academicsubtitle2">Formación 2</h4>
+                        </li>
+                        <li class="academic__courses__item__subtitle">
+                            <p data-i18n="academicsubtitlep2">2023 - Alura</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <li class="academic__courses__item__img"><img src="assets/images/oraclenext.png"></li>
+                        <li class="academic__courses__item__title">
+                            <h4 data-i18n="academicsubtitle3">Front-End</h4>
+                        </li>
+                        <li class="academic__courses__item__subtitle">
+                            <p data-i18n="academicsubtitlep3">En curso - Orcale + Alura</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Experiencia Profesional/Proyectos-->
+        <section class="experience" id="xp">
+            <h2 class="experience__section__title" data-i18n="experiencetitle">Chat 2D</h2>
+            <div class="experience__box">
+                <img class="experience__img" src="assets/images/projects/avatarchat.png">
+                <div class="experience__info__container">
+                    <h2 class="experience__title" data-i18n="experienceworktitle1">Chat 2D, Canvas, HTML, CSS y NodeJS
+                        WebSockets</h2>
+                    <h3 class="experience__text" data-i18n="experiencetext1">Aplicación de comunicación en tiempo real
+                        con ambiente gráfico.</h3>
+                    <div class="experience__description">
+                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                        <span class="experience__repo"><a href="https://github.com/Faraday1987/chat2d"
+                                target="_blank"><button class="experience__boton--repo">Repositório</button></a></span>
+                        <span class="experience__demo"><a href="https://chat2dapp.web.app/" target="_blank"><button
+                                    class="experience__boton--demo">Ver demo</button></a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience__box">
+                <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+                <img class="experience__img" src="assets/images/projects/movilapp.png">
+                <div class="experience__info__container">
+                    <h2 class="experience__title" data-i18n="experienceworktitle2">Delivery App</h2>
+                    <h3 class="experience__text" data-i18n="experiencetext2">React native, shop cms, google maps
+                        tracking deliveryapp.</h3>
+                    <div class="experience__description">
+                        <span class="experience__repo">
+                            <a href="https://github.com/Faraday1987/K-LI" target="_blank">
+                                <button class="experience__boton--repo"
+                                    data-i18n="experiencebotonrepo">Repositório</button>
+                            </a>
+                        </span>
+                        <span class="experience__demo"><a
+                                href="https://play.google.com/store/apps/details?id=com.kalidelivery"
+                                target="_blank"><button class="experience__boton--demo"
+                                    data-i18n="experiencebotondemo">Ver demo</button></a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience__box">
+                <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+                <img class="experience__img" src="assets/images/projects/faraway2.png">
+                <div class="experience__info__container">
+                    <h2 class="experience__title" data-i18n="experienceworktitle3">Faraway 2.0</h2>
+                    <h3 class="experience__text" data-i18n="experiencetext3">New version of directories Player + Map
+                        Editor </h3>
+                    <div class="experience__description">
+                        <span class="experience__repo">
+                            <a href="https://github.com/Faraday1987/Faraway2" target="_blank">
+                                <button class="experience__boton--repo"
+                                    data-i18n="experiencebotonrepo">Repositório</button>
+                            </a>
+                        </span>
+                        <span class="experience__demo">
+                            <a href="#">
+                                <button class="experience__boton--demo" data-i18n="experiencebotondemo">Ver
+                                    demo</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience__box">
+
+                <a href="https://www.youtube.com/watch?v=K7Dxrz3Srrs" tittle="Boton live go" class="youAreHereButton"
+                    target="_blank">
+                    <svg class="textcircle" viewBox="0 0 500 500">
+                        <defs>
+                            <path id="textcircle" d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z" />
+                        </defs>
+                        <text class="txt">
+                            <textPath xlink:href="#textcircle" aria-label=" .editor de mapas." textLength="900">
+                                .editor de mapas.
+                            </textPath>
+                        </text>
+                        <svg class="dot" aria-hidden="true" class="dot" viewBox="0 0 70 70"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle class="dot__inner" cx="35" cy="35.31" r="9.041" />
+                        </svg>
+                    </svg>
+
+                </a>
+
+
+                <img class="experience__img" src="assets/images/projects/faraway1.png">
+                <div class="experience__info__container">
+                    <h2 class="experience__title" data-i18n="experienceworktitle4">Faraway 1</h2>
+                    <h3 class="experience__text" data-i18n="experiencetext4">Path finding software </h3>
+                    <div class="experience__description">
+                        <span class="experience__repo">
+                            <a href="https://github.com/Faraday1987/FarAway" target="_blank">
+                                <button class="experience__boton--repo"
+                                    data-i18n="experiencebotonrepo">Repositório</button>
+                            </a>
+                        </span>
+                        <span class="experience__demo">
+                            <a href="https://www.youtube.com/watch?v=1i_vzWM1swU" target="_blank">
+                                <button class="experience__boton--demo" data-i18n="experiencebotondemo">Ver
+                                    demo</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección de Contacto -->
+            <section class="formcontato" id="contacto">
+                <div class="formcontato__contacto">
+                    <div class="formcontato--left">
+                        <img class="formcontato__img" src="assets/images/contact_image.png" alt="image contact">
+                    </div>
+                    <div class="formcontato__text">
+                        <h2 class="formcontato__title" data-i18n="contactotitle">Contacto</h2>
+                        <h3 class="formcontato__subtext" data-i18n="contactocontactme">¿Quieres contactarme?</h3>
+                        <h3 class="formcontato__subtext" data-i18n="contactotxt">Complete el siguiente formulario y me
+                            pondré en contacto con usted lo antes posible. </h3>
+                        <form class="formcontato__form" name="form" autocomplete="off">
+                            <div class="formcontato__container">
+                                <input class="formcontato__input" type="text" name="nombre" id="nombre" placeholder=" "
+                                    tabindex="1" required autocomplete="off" minlength="1" maxlength="10"
+                                    data-tipo="nombre">
+                                <label class="formcontato__label" for="nombre"><span
+                                        data-i18n="formname">Nombre</span></label>
+                                <span class="formcontato__message__error" data-error></span>
+                            </div>
+
+                            <div class="formcontato__container">
+                                <input class="formcontato__input" type="email" name="email" id="email" placeholder=" "
+                                    tabindex="2" required autocomplete="off"
+                                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" data-tipo="email">
+                                <label class="formcontato__label" for="email"><span
+                                        data-i18n="formemail">E-mail</span></label>
+                                <span class="formcontato__message__error" data-error></span>
+
+                            </div>
+
+                            <div class="formcontato__container">
+                                <input class="formcontato__input" type="text" name="asunto" id="asunto" placeholder=" "
+                                    tabindex="3" required autocomplete="off" minlength="1" maxlength="80"
+                                    data-tipo="asunto">
+                                <label class="formcontato__label" for="asunto"><span
+                                        data-i18n="formsubject">Asunto</span></label>
+                                <span class="formcontato__message__error" data-error></span>
+                            </div>
+
+                            <div class="formcontato__container">
+                                <textarea class="formcontato__textarea" rows="5" cols="40" id="mensaje" name="mensaje"
+                                    placeholder=" " tabindex="4" required autocomplete="off" minlength="1"
+                                    maxlength="100" data-tipo="mensaje"></textarea>
+                                <label class="formcontato__label" for="mensaje"><span
+                                        data-i18n="formessage">Message</span></label>
+                                <span class="formcontato__message__error" data-error></span>
+                            </div>
+
+                            <button type="submit" class="formcontato__boton" data-i18n="formbtnsend">Enviar
+                                mensaje</button>
+
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección de Footer -->
+            <section class="footer">
+                <div class="footer__rodapie">
+                    <p><span data-i18n="devinfo">Desarrollado por </span><span data-i18n="autor">Faraday</span></p>
+                    <p>2022</p>
+                </div>
+            </section>
+    </div>
+    <!-- Script del documento JavaScript -->
+    <script src="/assets/js/validacion.js"></script>
+    <script src="./assets/js/config.js"></script>
+    <script src="./assets/js/theme.js"></script>
+</body>
+
+</html>

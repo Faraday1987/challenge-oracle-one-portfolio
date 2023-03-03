@@ -1,0 +1,9 @@
+section.footer {
+    background-color: var(--color-de-fondo);
+    color: var(--color-de-fuente);
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding-top: 3.2em;
+    padding-bottom: 3.2em;
+}

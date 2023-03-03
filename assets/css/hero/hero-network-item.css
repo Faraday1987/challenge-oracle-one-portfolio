@@ -1,0 +1,36 @@
+.hero__network__item {
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.644rem;
+    padding-right: 3.369rem;
+
+}
+
+.hero__network__item img {
+    display: inline-block;
+    height: 1rem;
+    line-height: 1.644;
+    padding-left: 0.5rem;
+}
+
+
+@media screen and (min-width:0px) {
+    .hero__network__item {
+        font-size: 1.4rem;
+        font-weight: 600;
+        line-height: 1.644rem;
+        margin-right: 0.846rem;
+        padding-right: .846rem;
+
+    }
+}
+
+@media screen and (min-width:768px) {
+    .hero__network__item {
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 1.9rem;
+        padding-right: 3.269rem;
+    }
+}

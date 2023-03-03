@@ -1,0 +1,6 @@
+.formcontato__text {
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}

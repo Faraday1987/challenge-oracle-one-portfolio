@@ -1,0 +1,19 @@
+.formcontato__contacto {
+    display: flex;
+    align-content: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 0px){
+    .formcontato__contacto {
+        gap: 0;
+    }
+}
+
+
+@media screen and (min-width: 1400px){
+    .formcontato__contacto {
+        gap: 1.6rem;
+
+    }
+}

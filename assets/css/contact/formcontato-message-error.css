@@ -1,0 +1,24 @@
+.formcontato__message__error {
+    position: absolute;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--color-de-error-en-formulario);
+    padding-left: 1.2rem;
+    bottom: 0;
+    right: 0;
+    font-size: 1.3rem;
+}
+
+
+.formcontato__message__error--error {
+    border-bottom: 0.1rem solid var(--color-de-formulario-error);
+    color: var(--color-de-fuente);
+    background-color: var(--color-de-fondo-text-input); 
+}
+
+.formcontato__message__error--valid {
+    border-bottom: 0.1rem solid var(--color-de-formulario-valido);
+    color: var(--color-de-fuente);
+    background-color: var(--color-de-fondo-text-input);
+}

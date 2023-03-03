@@ -1,0 +1,7 @@
+.academic__courses {
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.6em;
+}

@@ -1,0 +1,29 @@
+.experience__section__title {
+    align-self: center;
+    color: var(--color-de-fuente);
+    font-weight: 700;
+}
+
+@media screen and (min-width: 0){
+    .experience__section__title {
+        font-size: 2.2rem;
+        line-height: 2.583rem;
+        padding-bottom: 1.6rem;
+    }
+}
+
+@media screen and (min-width: 1080px){
+    .experience__section__title {
+        font-size: 3.2rem;
+        line-height: 3.757rem;
+        padding-bottom: 3.2rem;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .experience__section__title {
+        font-size: 3.2rem;
+        line-height: 3.757rem;
+        padding-bottom: 3.2rem;
+    }
+}

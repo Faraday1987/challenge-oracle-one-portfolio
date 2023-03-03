@@ -1,0 +1,28 @@
+section.formcontato {
+    background-color: var( --color-de-fondo-even);
+    color: var(--color-de-fuente);
+    display: flex;
+    justify-content: center;
+    padding: 3.2rem;
+}
+
+
+
+@media screen and (min-width: 0) {
+    section.formcontato {
+        padding: 3.2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    section.formcontato {
+        padding: 3.2rem;
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+    section.formcontato {
+        padding: 12.95rem 15.2rem 6.55rem 15.2rem;
+    }
+}

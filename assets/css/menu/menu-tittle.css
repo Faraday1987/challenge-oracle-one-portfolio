@@ -1,0 +1,5 @@
+.menu__title {
+    color: var(--color-de-fuente);
+    white-space: nowrap;
+    padding-right: 0.9rem;
+}

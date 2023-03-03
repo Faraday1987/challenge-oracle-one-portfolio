@@ -1,0 +1,18 @@
+.formcontato__img {
+    display: flex;
+    max-width: 46.4rem;
+    /* width: auto; */
+    height: 59.3rem;
+}
+
+@media screen and (min-width:0px) {
+    .formcontato__img {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .formcontato__img  {
+        display: flex;
+    }
+}

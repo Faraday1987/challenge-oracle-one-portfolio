@@ -1,0 +1,14 @@
+.formcontato__container {
+    display: flex;
+    position: relative;
+    background-color: var(--color-de-fondo);
+    color: var(--color-de-fuente);
+    border-radius: 0.4rem;
+    flex-direction: column;
+    height: 5.6rem;
+    width: auto;
+    transition: all 0.2s ease;
+}
+.formcontato__container:nth-child(4) {
+    height: 13.3rem;
+}

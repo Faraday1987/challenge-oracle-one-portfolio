@@ -1,0 +1,35 @@
+
+.experience__text {
+    font-weight: 500;
+    color: var(--color-de-fuente);
+    padding: .8rem .0 .8rem 0;
+}
+
+@media screen and (min-width: 0) {
+    .experience__text {
+        font-size: 1.4rem;
+        line-height: 1.644rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .experience__text {
+        font-size: 1.6rem;
+        line-height: 1.644rem;
+
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .experience__text {
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .experience__text {
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+    }
+}

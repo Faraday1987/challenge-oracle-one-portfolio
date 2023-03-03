@@ -1,0 +1,65 @@
+.youAreHereButton {
+    display: flex;
+    position: relative;
+    width: 6.4rem;
+    height: 6.4rem;
+}
+
+.textcircle {
+    position: absolute;
+    animation: rotate 10s linear infinite;
+}
+
+.dot__inner {
+    fill: rgb(215, 0, 0);
+    animation: tick .99s alternate ease-in-out infinite;
+}
+
+.txt {
+    font-size: 10.2rem;
+    text-transform: uppercase;
+    fill: black;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes tick {
+    to {
+        fill: var(--tcol);
+
+    }
+}
+
+@media screen and (min-width:0) {
+    .youAreHereButton {
+        left: 50%;
+        transform: translate3d(1rem, 11rem, 0);
+    }
+}
+
+@media screen and (min-width:768px) {
+    .youAreHereButton {
+        left: 50%;
+        transform: translate3d(6rem, 21rem, 0);
+    }
+}
+
+@media screen and (min-width:1080px) {
+    .youAreHereButton {
+        left: 50%;
+        transform: translate3d(6rem, 26rem, 0);
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .youAreHereButton {
+        left: -39%;
+        transform: translate3d(10rem, 20rem, 0);
+
+    }
+}
+

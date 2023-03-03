@@ -1,0 +1,6 @@
+.menu__header {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 1.6rem;
+}

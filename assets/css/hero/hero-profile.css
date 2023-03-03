@@ -1,0 +1,32 @@
+.hero__profile {
+    border-radius: 100%;
+    align-self: flex-start;
+}
+
+@media screen and (min-width:0px) {
+    .hero__profile {
+        width: 9.8rem;
+        height: 9.8rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .hero__profile {
+        width: 14.6rem;
+        height: 14.6rem;
+    }
+}
+
+@media screen and (min-width:1080px) {
+    .hero__profile {
+        width: 36.8rem;
+        height: 36.8rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .hero__profile {
+        width: 36.8rem;
+        height: 36.8rem;
+    }
+}

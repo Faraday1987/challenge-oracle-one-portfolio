@@ -1,0 +1,28 @@
+.about__container {
+    display: flex;
+    flex-flow: column;
+}
+
+@media screen and (min-width:0px) {
+    .about__container {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .about__container {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1080px) {
+    .about__container {
+        width: 75.1rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .about__container {
+        width: 75.1rem;
+    }
+}

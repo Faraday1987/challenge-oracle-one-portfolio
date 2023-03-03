@@ -1,0 +1,109 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: inherit; */
+    box-sizing: border-box;
+    font-family: inherit;
+    line-height: inherit;
+    color: inherit;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+    /* Definimos lo que en realidad significa 1rem */
+    font-size: 62.5%;
+    /*1rem = 10px; 10px/16px = 62.5% */
+    text-rendering: optimizeSpeed;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-de-fondo);
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+}
+
+::selection {
+    background-color: var(--color-selection);
+    color: var(--color-selection);
+}
+
+/* 
+@query respond(tab-land) { // width < 1200?
+    font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
+}
+
+@include respond(tab-port) { // width < 900?
+    font-size: 50%; //1 rem = 8px, 8/16 = 50%
+}
+
+@include respond(big-desktop) {
+    font-size: 75%; //1rem = 12, 12/16
+} */
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    padding: 0;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-de-fuente);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--color-de-fuente);
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* 
+Color linear gradient over text
+background-image: linear-gradient(180deg, var(--text-gradient-from), var(--text-gradient-to));
+color: var(--color-de-fuente-hobbies-name);
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent; 
+-moz-text-fill-color: transparent; 
+*/

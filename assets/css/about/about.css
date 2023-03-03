@@ -1,0 +1,39 @@
+section.about {
+    background-color: var(--color-de-fondo-even);
+    color: var(--color-de-fuente);
+    display: flex;
+}
+
+
+/* Tamaños mayores a 0 */
+@media screen and (min-width:0px) {
+    section.about {
+        padding: 1.6rem;
+    }
+}
+
+/* Tamaños mayores a 768px */
+@media screen and (min-width:768px) {
+    section.about {
+        padding: 3.2rem;
+
+    }
+}
+
+/* Tamaños menores a 1080 */
+@media screen and (min-width:1080px) {
+    section.about {
+        padding-right: 3.2rem;
+        padding-left: 3.2rem;
+        padding-bottom: 6.4rem;
+    }
+}
+
+/* Todos los tamaños mayores que 1440 el original*/
+@media screen and (min-width:1440px) {
+    section.about {
+        padding-bottom: 6.4rem;
+        padding-left: 15.2rem;    
+    }
+}
+

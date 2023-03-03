@@ -1,0 +1,40 @@
+.menu__link {
+    font-size: 1.6rem;
+    line-height: 1.9;
+    padding-right: 3.2rem;
+    white-space: nowrap;
+}
+
+
+.menu__link {
+    display: flex;
+}
+
+/* Tamaños mayores a 0 */
+@media screen and (min-width:0px) {
+    .menu__link {
+        display: none;
+    }
+}
+
+/* Tamaños mayores a 768px */
+@media screen and (min-width:768px) {
+    .menu__link {
+       display: none;
+    }
+}
+
+/* Tamaños menores a 1080 */
+@media screen and (min-width:1080px) {
+    .menu__link {
+        display: flex;
+    }
+}
+
+/* Todos los tamaños mayores que 1440 el original*/
+@media screen and (min-width:1440px) {
+    .menu__link {
+        display: flex;
+    }
+}
+

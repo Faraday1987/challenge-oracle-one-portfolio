@@ -1,0 +1,22 @@
+.menu__language {
+    display: flex;
+    border: none;
+    flex: 0 0 auto;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    background-color: var(--color-de-fondo-lista-language);
+    color: var(--color-de-fuente);
+    border-radius: 100%;
+    width: 3.2rem;
+    height: 3.2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-inline-end: 0.9rem;
+    align-self: center;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}

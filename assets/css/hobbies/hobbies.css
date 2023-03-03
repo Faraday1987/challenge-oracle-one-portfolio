@@ -1,0 +1,9 @@
+section.hobbies {
+    background-color: var(--color-de-fondo);
+    color: var(--color-de-fuente);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8.8rem;
+}

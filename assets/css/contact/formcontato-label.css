@@ -1,0 +1,11 @@
+.formcontato__label {
+    position: absolute;
+    color: var(--color-de-formulario-label-input-inactive);
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    left: 1.2rem;
+    top: 2rem;
+    transition: all 0.2s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}

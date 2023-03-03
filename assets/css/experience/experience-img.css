@@ -1,0 +1,39 @@
+.experience__img {
+    aspect-ratio: 16/9;
+    inline-size: 100%;
+    block-size: 100%;
+    object-fit: cover;
+}
+
+
+@media screen and (min-width: 0) {
+    .experience__img {
+        width:auto;
+        max-height: 14.4rem;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .experience__img {
+        width: 70.4rem;
+        max-height: 32rem;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .experience__img {
+        width: 70.4rem;
+        max-height: 32rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .experience__img img {
+        width: 70.4rem;
+        max-height: 32rem;
+        inline-size: 100%;
+        block-size: 100%;
+        object-fit: fill;
+    }
+}

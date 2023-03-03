@@ -1,0 +1,7 @@
+.skills__name {
+    font-size: 1.6rem;
+    line-height: 1.878rem;
+    font-weight: 700;
+    padding-top: 0.8rem;
+    color: var(--color-de-fuente-skills-name);
+}
