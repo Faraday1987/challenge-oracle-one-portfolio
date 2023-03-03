@@ -6,8 +6,10 @@ let isLigth = false;
 toggle = () => {
     isLigth = !isLigth;
     if (isLigth) {
+        try {
         darkLigth.style.backgroundImage = "url(assets/svg/btn_dark.svg)";
         darkLigth.style.backgroundColor = 'var(--color-de-fondo-blanco)';
+        }catch(e){}
 
         document.documentElement.style.setProperty('--color-selection', 'rgb(70, 0, 102)');
         document.documentElement.style.setProperty('--color-de-fondo', '#F5F5F5');
