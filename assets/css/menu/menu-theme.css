@@ -6,7 +6,6 @@
     height: 3.2rem;
     cursor: pointer;
     background-color: var(--color-de-fondo);
-    background-image: url(assets/svg/btn_dark.svg);
     background-size: cover;
     appearance: none;
 }
