@@ -1,6 +1,6 @@
 .hero__bio {
+    display: flex;
     color: var(--color-de-fuente);
-    font-family: Raleway, sans-serif;
 }
 
 @media screen and (min-width:0px) {
@@ -8,8 +8,6 @@
         font-size: 2.2rem;
         font-weight: 700;
         line-height: 2.583rem;
-        text-align: justify;
-
     }
 }
 
@@ -23,9 +21,9 @@
 
 @media screen and (min-width:1080px) {
     .hero__bio {
-        font-size: 5.2rem;
         font-weight: 700;
-        line-height: 6.105rem;
+        font-size: 2.2rem;
+        line-height: 26px;
     }
 }
 
@@ -33,6 +31,6 @@
     .hero__bio {
         font-size: 5.2rem;
         font-weight: 700;
-        line-height: 6.105rem;
+        line-height: 6.1rem;
     }
 }

@@ -1,8 +1,8 @@
 .experience__img {
     aspect-ratio: 16/9;
     inline-size: 100%;
-    block-size: 100%;
-    object-fit: cover;
+    block-size: 100vw;
+    object-fit: fill;
 }
 
 

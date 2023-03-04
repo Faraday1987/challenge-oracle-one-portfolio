@@ -3,3 +3,22 @@
     white-space: nowrap;
     padding-right: 0.9rem;
 }
+
+@media screen and (min-width:0) {
+    .menu__title {
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+}
+
+@media screen and (min-width:1080px) {
+
+}
+
+@media screen and (min-width:1440px) {
+
+}

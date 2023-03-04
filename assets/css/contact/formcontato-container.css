@@ -6,7 +6,6 @@
     border-radius: 0.4rem;
     flex-direction: column;
     height: 5.6rem;
-    width: auto;
     transition: all 0.2s ease;
 }
 .formcontato__container:nth-child(4) {

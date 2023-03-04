@@ -7,6 +7,8 @@
     .hero__profile {
         width: 9.8rem;
         height: 9.8rem;
+        margin-inline-start: 1.6rem;
+        margin-block-end: 1.6rem;
     }
 }
 

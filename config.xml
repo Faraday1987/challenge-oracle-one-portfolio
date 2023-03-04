@@ -17,6 +17,7 @@
 			<formation>Educación</formation>
 			<projects>Proyectos</projects>
 			<herobio>Hola, mi nombre es Faraday y construyo paginas web</herobio>
+			<!-- <herobio>Hola, mi nombre es Faraday y construyo paginas web</herobio> -->
 			<herosubsection>Soy formado en Ingenieria de software, actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</herosubsection>
 			<cv>Currículo</cv>
 			<abouttitle>Sobre mi</abouttitle>

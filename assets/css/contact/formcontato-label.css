@@ -1,4 +1,5 @@
 .formcontato__label {
+    display: flex;
     position: absolute;
     color: var(--color-de-formulario-label-input-inactive);
     display: flex;

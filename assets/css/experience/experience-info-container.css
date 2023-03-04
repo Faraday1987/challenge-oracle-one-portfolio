@@ -9,8 +9,10 @@
 
 @media screen and (min-width: 0) {
     .experience__info__container {
-        flex: 0 0 auto;
+        flex: 1 1 auto;
         align-self: flex-start;
+        padding-inline-end: 1.6rem;
+        padding-inline-start: 1.6rem;
     }
 }
 

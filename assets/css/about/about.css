@@ -8,15 +8,16 @@ section.about {
 /* Tamaños mayores a 0 */
 @media screen and (min-width:0px) {
     section.about {
-        padding: 1.6rem;
+        padding-right: 1.6rem;
+        padding-left: 1.6rem;    
     }
 }
 
 /* Tamaños mayores a 768px */
 @media screen and (min-width:768px) {
     section.about {
-        padding: 3.2rem;
-
+        padding-right: 3.2rem;
+        padding-left: 3.2rem;
     }
 }
 

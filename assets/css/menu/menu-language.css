@@ -20,3 +20,15 @@
     -webkit-appearance: none;
     -moz-appearance: none;
 }
+
+@media screen and (min-width: 0) {
+    .menu__language {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .menu__language {
+        display: block;
+    }
+}

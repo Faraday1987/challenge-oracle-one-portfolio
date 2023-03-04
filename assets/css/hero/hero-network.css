@@ -2,3 +2,29 @@
     display: flex;
     justify-content: flex-start;
 }
+
+@media screen and (min-width:0) {
+    .hero__network {
+        margin-block-end: 1.6rem;
+    }
+}
+@media screen and (min-width:768px) {
+    .hero__network {
+        margin-bottom: 4.25rem;
+    }
+}
+
+@media screen and (min-width:1080px) {
+    .hero__network {
+        margin-bottom: 9.55rem;
+    }
+
+}
+
+@media screen and (min-width:1440) {
+    .hero__network {
+        margin-bottom: 9.55rem;
+
+    }
+}
+

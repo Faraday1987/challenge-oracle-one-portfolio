@@ -1,7 +1,41 @@
 section.hero {
     display: flex;
-    justify-content: center;
-    padding-top: 1.6rem;
-    padding-bottom: 1.6rem;
-    width: 100%;
 }
+
+@media screen and (min-width:0px) {
+    section.hero  {
+        margin-inline-start: 1.2rem;
+        margin-inline-end: 1.2rem;
+        margin-block-start: 5.85rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    section.hero  {
+        margin-inline-start: 3.2rem;
+        margin-inline-end: 3.2rem; 
+        margin-block-start: 3.45rem;
+
+    }
+}
+
+@media screen and (min-width:1080px) {
+    section.hero  {
+        margin-inline-start: 3.2rem;
+        margin-inline-end: 3.2rem;
+        margin-block-start: 6.65rem;
+
+        padding-bottom: 6.4rem;
+    }
+}
+
+
+@media screen and (min-width:1440px) {
+    section.hero  {
+        margin-inline-start: 15.2rem;
+        margin-inline-end: 15.2rem; 
+        margin-block-start: 6.65rem;
+
+    }
+}
+

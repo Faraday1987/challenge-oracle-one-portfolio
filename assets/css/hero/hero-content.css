@@ -1,39 +1,31 @@
 .hero__content {
     display: flex;
     align-items: center;
-    width: 100%;
+    text-align: justify;
 }
 
 @media screen and (min-width:0px) {
     .hero__content {
-        padding-right: 1.6rem;
-        padding-left: 1.6rem;
-        justify-content: space-between;
         flex-flow: column;
+
     }
 }
 
 @media screen and (min-width:768px) {
     .hero__content {
-        padding-right: 3.2rem;
-        padding-left: 3.2rem;
         flex-direction: row-reverse;
         justify-content: space-between;
     }
 }
 
 @media screen and (min-width:1080px) {
-    .hero__content {
-        padding-right: 3.2rem;
-        padding-left: 3.2rem;    
+    .hero__content { 
         flex-direction: row-reverse;
     }
 }
 
 @media screen and (min-width:1440px) {
     .hero__content {
-        padding-right: 15.2rem;
-        padding-left: 15.2rem;
         flex-direction: row-reverse;
     }
 }

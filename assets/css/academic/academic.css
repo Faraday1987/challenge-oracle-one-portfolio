@@ -2,8 +2,37 @@ section.academic {
     background-color: var(--color-de-fondo-even);
     color: var(--color-de-fuente);
     display: flex;
-    flex: 0 0 auto;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 8.2em;
+    height: auto;
+}
+
+
+@media screen and (min-width:0) {
+    section.academic{
+        padding-bottom: 3.2rem;
+    }
+}
+@media screen and (min-width:768px) {
+    section.academic{
+        padding-bottom: 3.2rem;
+        height: 29.1rem;
+    }
+}
+
+@media screen and (min-width:1080px) {
+    section.academic{
+        margin-bottom: 8.2rem;
+        height: auto;
+
+    }
+
+}
+
+@media screen and (min-width:1080px) {
+    section.academic{
+        padding-bottom: 8.2rem;
+
+    }
+
 }
